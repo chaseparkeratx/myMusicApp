@@ -11,13 +11,14 @@ export default function Input() {
       }}
       noValidate
       autoComplete="off"
+      className='login'
     >
-      <div>
+      <div className='text'>
         <TextField
           required
           id="outlined-required"
-          label="Required"
-          defaultValue="Username"
+          label="Username"
+          defaultValue=""
         />
         <TextField
           id="outlined-password-input"

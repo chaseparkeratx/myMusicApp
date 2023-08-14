@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 
 export default function button() {
   return (
-    <Stack spacing={10} direction="row">
+    <Stack spacing={10} direction="row" className='button'>
       <Button variant="contained">LOGIN</Button>
     </Stack>
   );
